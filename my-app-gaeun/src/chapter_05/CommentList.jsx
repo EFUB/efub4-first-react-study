@@ -26,7 +26,7 @@ function CommentList(props){
                 return(
                     <Comment name={comment.name} comment={comment.comment} />
                 );
-            })};
+            })}
         </div>
     );
 }
