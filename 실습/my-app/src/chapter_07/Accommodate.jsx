@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import useCounter from "./useCounter";
 
-const MAX_CAPACITY = 10;
+const MAX_CAPACITY = 10; //최대 카운트 개수
 
 function Accommodate(props) {
   const [isFull, setIsFull] = useState(false);
