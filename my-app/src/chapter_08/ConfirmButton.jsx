@@ -7,26 +7,25 @@ class ConfirmButton extends React.Component {
         this.state = {
             isConfirmed: false,
         };
-
-        this.handleConfirm = this.handleConfirm.bind(this);
     }
 
-    handleConfirm() {
-        this.setState((prevState) => ({
-            isConfirmed: !prevState.isConfirmed,
-        }));
-    }
+        // this.handleConfirm = this.handleConfirm.bind(this);
+        handleConfirm = () => {
+            this.setState((prevState) => ({
+                isConfirmed: !prevState.isConfirmed,
+            }));
+        }
 
-    render() {
-        return (
-            <button
-                onClick={this.handleConfirm}
-                disabled={this.state.isConfirmed}
-            >
-                {this.state.isConfirmed ? "확인됨" : "확인하기"}
-            </button>
-        );
+        render() {
+            return (
+                <button
+                    onClick={this.handleConfirm}
+                    disabled={this.state.isConfirmed}
+                >
+                    {this.state.isConfirmed ? "확인됨" : "확인하기"}
+                </button>
+            );
+        }
     }
-}
 
 export default ConfirmButton;
