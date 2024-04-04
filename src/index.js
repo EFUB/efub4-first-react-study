@@ -2,12 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import LandingPage from "./chapter_09/LandingPage";
 
-import Accommodate from "./chapter_07/Accommodate";
-import ConfirmButton from "./chapter_08/ConfirmButton";
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById("root")
 );
