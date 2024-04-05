@@ -10,10 +10,11 @@ import reportWebVitals from './reportWebVitals';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import LandingPage from './chapter_09/Landingpage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>,
   document.getElementById('root')
 )
