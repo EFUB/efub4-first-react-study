@@ -10,6 +10,9 @@ import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
 
+import Confirmbutton from './chapter_08/Confirmbutton';
+import Landingpage from './chapter_09/Landingpage';
+import AttendanceBook from './chapter_10/Attendancebook';
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 //chapter04
@@ -40,12 +43,37 @@ import Accommodate from './chapter_07/Accommodate';
 );*/
 
 //chapter07
-ReactDOM.render(
+/*ReactDOM.render(
   <React.StrictMode>
     <Accommodate/>
   </React.StrictMode>,
   document.getElementById('root')
+);*/
+
+
+//chapter08
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Confirmbutton/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+//chapter09
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Landingpage/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+//chapter10
+ReactDOM.render(
+  <React.StrictMode>
+    <AttendanceBook/>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
