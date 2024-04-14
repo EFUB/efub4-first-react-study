@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Calculator from "./chapter_12/Calculator";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>,
   document.getElementById("root")
 );
