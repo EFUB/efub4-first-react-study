@@ -1,18 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Library from './chapter_03/Library';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Library from "./chapter_03/Library";
 
-import Clock from './chapter_04/Clock';
-import CommentList from './chapter_05/CommentList';
-import NotificationList from './chapter_06/NotificationList';
-import Accommodate from './chapter_07/Accommodate';
+import Clock from "./chapter_04/Clock";
+import CommentList from "./chapter_05/CommentList";
+import NotificationList from "./chapter_06/NotificationList";
+import Accommodate from "./chapter_07/Accommodate";
 
-import Confirmbutton from './chapter_08/Confirmbutton';
-import Landingpage from './chapter_09/Landingpage';
-import AttendanceBook from './chapter_10/Attendancebook';
+import Confirmbutton from "./chapter_08/Confirmbutton";
+import Landingpage from "./chapter_09/Landingpage";
+import AttendanceBook from "./chapter_10/Attendancebook";
+
+import SignUp from "./chapter_11/SignUp";
 
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 //chapter04
@@ -50,7 +52,6 @@ import AttendanceBook from './chapter_10/Attendancebook';
   document.getElementById('root')
 );*/
 
-
 //chapter08
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -67,13 +68,20 @@ import AttendanceBook from './chapter_10/Attendancebook';
 // );
 
 //chapter10
-ReactDOM.render(
+/*ReactDOM.render(
   <React.StrictMode>
     <AttendanceBook/>
   </React.StrictMode>,
   document.getElementById('root')
-);
+);*/
 
+//chapter11
+ReactDOM.render(
+  <React.StrictMode>
+    <SignUp />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
