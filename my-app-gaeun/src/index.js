@@ -16,6 +16,7 @@ import AttendanceBook from "./chapter_10/Attendancebook";
 
 import SignUp from "./chapter_11/SignUp";
 import Calculator from "./chapter_12/Calculator";
+import ProfileCard from "./chapter_13/ProfileCard";
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 //chapter04
 /*setInterval(() => {
@@ -84,9 +85,17 @@ import Calculator from "./chapter_12/Calculator";
 );*/
 
 //chapter12
-ReactDOM.render(
+/*ReactDOM.render(
   <React.StrictMode>
     <Calculator />
+  </React.StrictMode>,
+  document.getElementById("root")
+);*/
+
+//chapter13
+ReactDOM.render(
+  <React.StrictMode>
+    <ProfileCard />
   </React.StrictMode>,
   document.getElementById("root")
 );
