@@ -2,12 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-
-import Accommodate from "./chapter_07/Accommodate";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Accommodate />
+    <ProfileCard />
   </React.StrictMode>,
   document.getElementById("root")
 );
