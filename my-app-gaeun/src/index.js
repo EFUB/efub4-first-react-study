@@ -17,6 +17,8 @@ import AttendanceBook from "./chapter_10/Attendancebook";
 import SignUp from "./chapter_11/SignUp";
 import Calculator from "./chapter_12/Calculator";
 import ProfileCard from "./chapter_13/ProfileCard";
+
+import DarkOrLight from "./chapter_14/DarkOrLight";
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 //chapter04
 /*setInterval(() => {
@@ -92,14 +94,21 @@ import ProfileCard from "./chapter_13/ProfileCard";
   document.getElementById("root")
 );*/
 
-//chapter13
+// //chapter13
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <ProfileCard />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+//chapter14
 ReactDOM.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrLight />
   </React.StrictMode>,
   document.getElementById("root")
 );
-
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
