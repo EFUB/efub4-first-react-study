@@ -19,6 +19,7 @@ import Calculator from "./chapter_12/Calculator";
 import ProfileCard from "./chapter_13/ProfileCard";
 
 import DarkOrLight from "./chapter_14/DarkOrLight";
+import Blocks from "./chapter_15/Blocks";
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 //chapter04
 /*setInterval(() => {
@@ -103,9 +104,16 @@ import DarkOrLight from "./chapter_14/DarkOrLight";
 // );
 
 //chapter14
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+//chapter15
 ReactDOM.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>,
   document.getElementById("root")
 );
