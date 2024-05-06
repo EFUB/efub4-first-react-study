@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ProfileCard from "./chapter_13/ProfileCard";
+import Blocks from "./chapter_15/Blocks";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProfileCard />
+    <Blocks />
   </React.StrictMode>,
   document.getElementById("root")
 );
